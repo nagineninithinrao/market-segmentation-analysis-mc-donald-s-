@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>marketsegmentation</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='assets/css/index1.css')}}">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style type="text/css">
+        label{
+        width:200px;
+        display:inline-block;
+        }
+        </style>
+    </head>
+    <body>
+          <div id="lg">
+            <div id="ns">
+              <header class="name">MARKET SEGMENTATION ANALYSIS:</header>
+              <nav id="nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#predict" id="pr">Predict</a></li>
+                </ul>
+              </nav>
+            </div>
+              <div id="tq">
+              <h1 id="title">MCDONALDS</h1>
+              </div>
+           </div>
+           <!--about-->
+           <div id="about">
+            <nav id="nava">
+                <ul>
+                    <li><a href="#lg" class="active">Home</a></li>
+                    <li><a href="#predict" id="pr">Predict</a></li>
+                </ul>
+              </nav>
+            <div id="ac">
+              <h3><aside id="au">Aboutus:</aside></h3>
+              <main id="cont">
+                <b> <i><p>Market segmentation involves dividing the market into distinct groups of customers who have similar needs, wants, or behaviors. .
+                    <br><br>This segmentation allows businesses to tailor their marketing strategies, product offerings, and services to better meet the specific needs of each segment.
+                    <br><br>By employing these segmentation strategies, McDonald's effectively targets different customer segments with products and promotions that meet their specific needs and preferences. This approach not only enhances customer satisfaction but also boosts sales and strengthens brand loyalty.
+                 </i></b></p>
+              </main>
+            </div>
+           </div>
+           <!--predict-->
+           <div id="predict">
+            <header id="namep">MC DONALD'S</header>
+            <div id="formbox">
+                <h1><b>Please Fill the Details</b></h1>
+                <form action="/output" method="POST">
+                <table>
+                <tr><td>
+                    <b><label for="yummy">YUMMY:</label></td><td>
+                    <input type="binaryInput" id="yummy" name="yummy" pattern1="[01]" required>
+                    <br></td> </tr> <tr><td>
+                    <b><label for="convenient">CONVENIENT:</label></td><td>
+                    <input type="binaryInput" id="convenient" name="convenient" pattern1="[01]" required>
+                    <br></td> </tr> <tr><td>
+                    <b><label for="spicy">SPICY:</label></td><td>
+                    <input type="binaryInput" id="spicy" name="spicy" pattern1="[01]" required>
+                    <br></td></tr><tr><td>
+                    <b><label for="fattening">FATTENING:</label></td><td>
+                    <input type="binaryInput" id="fattening" name="fattening" pattern1="[01]" required>
+                    <br></td></tr><tr><td>
+                    <b><label for="greasy">GREASY:</label></td><td>
+                    <input type="binaryInput" id="greasy" name="greasy" pattern1="[01]" required>
+                    <br></td></tr><tr><td>
+                    <b><label for="fast">FAST:</label></td><td>
+                    <input type="binaryInput" id="fast" name="fast" pattern1="[01]" required>
+                    <br></td></tr><tr><td>
+                    <b><label for="cheap">CHEAP:</label></td><td>
+                    <input type="binaryInput" id="cheap" name="cheap" pattern1="[01]" required>
+                    <br></td></tr><tr><td>
+                    <b><label for="tasty">TASTY:</label></td><td>
+                    <input type="binaryInput" id="tasty" name="tasty" pattern1="[01]" required>
+                    <br></td></tr><tr><td>
+                    <b><label for="expensive">EXPENSIVE:</label></td><td>
+                    <input type="binaryInput" id="expensive" name="expensive" pattern1="[01]" required>
+                    <br></td></tr><tr><td>
+                    <b><label for="healthy">HEALTHY:</label></td><td>
+                    <input type="binaryInput" id="healthy" name="healthy" pattern1="[01]" required>
+                    <br></td></tr><tr><td>
+                    <b><label for="disgusting">DISGUSTING:</label></td><td>
+                    <input type="binaryInput" id="disgusting" name="disgusting" pattern1="[01]" required>
+                    <br></td></tr><tr><td>
+                    <b><label for="Age">AGE:</label></td><td>
+                    <input type="binaryInput" id="Age" name="Age" pattern1="[01]" required>
+                    <br></td></tr><tr><td>
+                    <b><label for="Gender">GENDER:</label></td><td>
+                    <input type="binaryInput" id="Gender" name="Gender" pattern1="[01]" required>
+                    <br></td></tr><tr><tr><td>
+                    <center><button id="button" type="submit"  style="background-color:sky-blue" calss="btn">Predict</button></center>
+                    </td></tr></tr>
+                    </b>
+                    </table>
+                </form>
+              </div>
+           </div>
+
+    </body>
+</html>

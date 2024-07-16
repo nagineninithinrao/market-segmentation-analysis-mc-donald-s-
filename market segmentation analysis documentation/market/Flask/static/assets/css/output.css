@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(113, 113, 110);
+    background-image: url('../img/img4.jpg');
+    background-size:cover;
+}
+#name{
+    font-size: 40px;
+    padding: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: static;
+    
+
+}
+.output{
+padding-top: 100px;
+padding:20px;
+}
